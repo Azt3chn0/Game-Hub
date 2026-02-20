@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+#welcomeTitle{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 0 0 10px white;
+    font-family: "Orbitron", monospace;
+    color: white;
+}
+#letter1{
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+#letter2{
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+#letter3{
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+#letter4{
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+#letter5{
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+#letter6{
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+#letter7{
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+#letter8{
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+#title{
+    opacity: 0;
+    transition: all 1s ease;
+    position: absolute;
+    left: 50%;
+    top : -100px;
+    transform: translateX(-50%);
+    font-size: 3em;
+    text-shadow: 0 0 10px white;
+    color: white;
+    font-family: "poppins";
+}
+.hr{
+    transition: all 1s ease;
+    opacity: 0;
+    height: 2px;
+    left: -1%;
+    width: 200%;
+    background-color: white;
+    box-shadow: 0 0 0 white;
+}
+#hr1{
+    position: absolute;
+    top: 100px;
+}
+#surveyTitle{
+    opacity: 0;
+    transition: all 1s ease;
+    position: absolute;
+    left: 50%;
+    top : 100px;
+    transform: translateX(-50%);
+    font-size: 2.5em;
+    text-shadow: 0 0 10px white;
+    color: white;
+    font-family: "poppins";
+}
+#hr2{
+    position: absolute;
+    top: 300px;
+}
+#firstQuestion{
+    opacity: 0;
+    transition: all 1s ease;
+    position: absolute;
+    left: 50%;
+    top : 200px;
+    transform: translateX(-50%);
+    font-size: 3em;
+    text-shadow: 0 0 10px white;
+    color: white;
+    font-family: "poppins";
+}
+#optionOne1{
+    opacity: 0;
+    transition: all 1s ease;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    background-image: url(minecraftBlock.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:white;
+    -webkit-text-stroke: 2px lightgreen;
+    font-size: 4em;
+    font-family: "lato", monospace;
+    font-weight: bold;
+    text-shadow: 0 0 10px green;
+}
+#optionTwo1{
+    opacity: 0;
+    transition: all 1s ease;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    background-image: url(robloxLogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:white;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-size: 4em;
+    font-family: "lato", monospace;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+}
+#optionThree1{
+    opacity: 0;
+    transition: all 1s ease;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+    background-image: url(geometryDashLogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:white;
+    -webkit-text-stroke: 2px yellow;
+    font-size: 4em;
+    font-family: "lato", monospace;
+    font-weight: bold;
+    text-shadow: 0 0 10px blue;
+}
