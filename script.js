@@ -1,3 +1,5 @@
+console.log("Testing");
+
 function delay(ms){
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -17,8 +19,16 @@ const firstQuestion = document.getElementById("firstQuestion");
 const optionOne1 = document.getElementById("optionOne1");
 const optionTwo1 = document.getElementById("optionTwo1");
 const optionThree1 = document.getElementById("optionThree1");
+const optionFour1 = document.getElementById("optionFour1");
+const optionFive1 = document.getElementById("optionFive1");
+const optionSix1 = document.getElementById("optionSix1");
+const sneaky = document.getElementById("sneaky");
+let enter;
 
-window.onload = async function(){ 
+const success = localStorage.getItem("success");
+
+document.addEventListener("DOMContentLoaded", async function(){ 
+    if(success === null){
     await delay(1000);
     letter1.style.color = "white";
     letter1.style.textShadow = "0 0 10px white";
@@ -87,4 +97,200 @@ window.onload = async function(){
     await delay(500);
     optionThree1.style.opacity = "1";
     optionThree1.style.top = "450px";
+    await delay(500);
+    optionFour1.style.opacity = "1";
+    optionFour1.style.top = "650px";
+    await delay(500);
+    optionFive1.style.opacity = "1";
+    optionFive1.style.top = "450px";
+    await delay(500);
+    optionSix1.style.opacity = "1";
+    optionSix1.style.top = "650px";
+}});
+check();
+async function check(){
+    if(success === "false"){
+        sneaky.style.opacity = "1";
+        sneaky.style.top = "350px";
+        sneaky.style.textShadow = "0 0 10px white";
+    }
+    if(success === "true"){
+        title.style.transition = "all 1s ease";
+        await delay(100);
+        title.style.fontFamily = "Orbitron";
+        title.style.opacity = "1";
+        title.style.top = "0px";
+        await delay(100);
+        hr1.style.opacity = "1";
+        hr1.style.boxShadow = "0 0 10px white";
+    }
 }
+async function minecraft(){
+    enter = true;
+    title.style.opacity = "0";
+    await delay(100);
+    hr1.style.opacity = "0";
+    await delay(100);
+    surveyTitle.style.opacity = "0";
+    await delay(100);
+    hr2.style.opacity = "0";
+    await delay(100);
+    firstQuestion.style.opacity = "0";
+    await delay(100);
+    optionOne1.style.opacity = "0";
+    await delay(100);
+    optionTwo1.style.opacity = "0";
+    await delay(100);
+    optionThree1.style.opacity = "0";
+    await delay(100);
+    optionFour1.style.opacity = "0";
+    await delay(100);
+    optionFive1.style.opacity = "0";
+    await delay(100);
+    optionSix1.style.opacity = "0";
+    checkEnter();
+}
+async function roblox(){
+    enter = true;
+    title.style.opacity = "0";
+    await delay(100);
+    hr1.style.opacity = "0";
+    await delay(100);
+    surveyTitle.style.opacity = "0";
+    await delay(100);
+    hr2.style.opacity = "0";
+    await delay(100);
+    firstQuestion.style.opacity = "0";
+    await delay(100);
+    optionOne1.style.opacity = "0";
+    await delay(100);
+    optionTwo1.style.opacity = "0";
+    await delay(100);
+    optionThree1.style.opacity = "0";
+    await delay(100);
+    optionFour1.style.opacity = "0";
+    await delay(100);
+    optionFive1.style.opacity = "0";
+    await delay(100);
+    optionSix1.style.opacity = "0";
+    checkEnter();
+}
+async function GD(){
+    enter = true;
+    title.style.opacity = "0";
+    await delay(100);
+    hr1.style.opacity = "0";
+    await delay(100);
+    surveyTitle.style.opacity = "0";
+    await delay(100);
+    hr2.style.opacity = "0";
+    await delay(100);
+    firstQuestion.style.opacity = "0";
+    await delay(100);
+    optionOne1.style.opacity = "0";
+    await delay(100);
+    optionTwo1.style.opacity = "0";
+    await delay(100);
+    optionThree1.style.opacity = "0";
+    await delay(100);
+    optionFour1.style.opacity = "0";
+    await delay(100);
+    optionFive1.style.opacity = "0";
+    await delay(100);
+    optionSix1.style.opacity = "0";
+    checkEnter();
+}
+async function fortnite(){
+    enter = true;
+    title.style.opacity = "0";
+    await delay(100);
+    hr1.style.opacity = "0";
+    await delay(100);
+    surveyTitle.style.opacity = "0";
+    await delay(100);
+    hr2.style.opacity = "0";
+    await delay(100);
+    firstQuestion.style.opacity = "0";
+    await delay(100);
+    optionOne1.style.opacity = "0";
+    await delay(100);
+    optionTwo1.style.opacity = "0";
+    await delay(100);
+    optionThree1.style.opacity = "0";
+    await delay(100);
+    optionFour1.style.opacity = "0";
+    await delay(100);
+    optionFive1.style.opacity = "0";
+    await delay(100);
+    optionSix1.style.opacity = "0";
+    checkEnter();
+}
+async function marvel(){
+    enter = true;
+    title.style.opacity = "0";
+    await delay(100);
+    hr1.style.opacity = "0";
+    await delay(100);
+    surveyTitle.style.opacity = "0";
+    await delay(100);
+    hr2.style.opacity = "0";
+    await delay(100);
+    firstQuestion.style.opacity = "0";
+    await delay(100);
+    optionOne1.style.opacity = "0";
+    await delay(100);
+    optionTwo1.style.opacity = "0";
+    await delay(100);
+    optionThree1.style.opacity = "0";
+    await delay(100);
+    optionFour1.style.opacity = "0";
+    await delay(100);
+    optionFive1.style.opacity = "0";
+    await delay(100);
+    optionSix1.style.opacity = "0";
+    checkEnter();
+}
+async function other(){
+    enter = false;
+    title.style.opacity = "0";
+    await delay(100);
+    hr1.style.opacity = "0";
+    await delay(100);
+    surveyTitle.style.opacity = "0";
+    await delay(100);
+    hr2.style.opacity = "0";
+    await delay(100);
+    firstQuestion.style.opacity = "0";
+    await delay(100);
+    optionOne1.style.opacity = "0";
+    await delay(100);
+    optionTwo1.style.opacity = "0";
+    await delay(100);
+    optionThree1.style.opacity = "0";
+    await delay(100);
+    optionFour1.style.opacity = "0";
+    await delay(100);
+    optionFive1.style.opacity = "0";
+    await delay(100);
+    optionSix1.style.opacity = "0";
+    checkEnter();
+}
+async function checkEnter(){
+    if(enter === false){
+        document.body.style.backgroundColor = "black";
+        title.textContent = "You are not allowed to enter";
+        title.style.opacity = "1";
+        title.style.top = "0px";
+        localStorage.setItem("success", "false");
+    }
+    else{
+        document.body.style.backgroundColor = "black";
+        title.style.opacity = "1";
+        title.textContent = "https://discord.gg/Mfsaj7WX";
+        await delay(1000);
+        title.style.transition = "all 1s ease";
+        title.style.opacity = "1";
+        localStorage.setItem("success", "true");
+    }
+}
+
