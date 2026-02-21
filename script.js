@@ -27,6 +27,20 @@ let enter;
 
 const success = localStorage.getItem("success");
 
+const rulesTitle = document.getElementById("rulesTitle");
+const rule1 = document.getElementById("rule1");
+const rule2 = document.getElementById("rule2");
+const rule3 = document.getElementById("rule3");
+const rule4 = document.getElementById("rule4");
+const rule5 = document.getElementById("rule5");
+const rule6 = document.getElementById("rule6");
+const rule7 = document.getElementById("rule7");
+const rule8 = document.getElementById("rule8");
+const rule9 = document.getElementById("rule9");
+const rule10 = document.getElementById("rule10");
+const rule11 = document.getElementById("rule11");
+const rule12 = document.getElementById("rule12");
+
 document.addEventListener("DOMContentLoaded", async function(){ 
     if(success === null){
     await delay(1000);
@@ -120,9 +134,48 @@ async function check(){
         title.style.fontFamily = "Orbitron";
         title.style.opacity = "1";
         title.style.top = "0px";
-        await delay(100);
+        await delay(500);
         hr1.style.opacity = "1";
         hr1.style.boxShadow = "0 0 10px white";
+        await delay(500);
+        rulesTitle.style.opacity = "1";
+        rulesTitle.style.top = "150px";
+        await delay(500);
+        rule1.style.opacity = "1";
+        rule1.style.top = "250px";
+        await delay(500);
+        rule2.style.opacity = "1";
+        rule2.style.top = "300px";
+        await delay(500);
+        rule3.style.opacity = "1";
+        rule3.style.top = "350px";
+        await delay(500);
+        rule4.style.opacity = "1";
+        rule4.style.top = "400px";
+        await delay(500);
+        rule5.style.opacity = "1";
+        rule5.style.top = "450px";
+        await delay(500);
+        rule6.style.opacity = "1";
+        rule6.style.top = "500px";
+        await delay(500);
+        rule7.style.opacity = "1";
+        rule7.style.top = "550px";
+        await delay(500);
+        rule8.style.opacity = "1";
+        rule8.style.top = "600px";
+        await delay(500);
+        rule9.style.opacity = "1";
+        rule9.style.top = "650px";
+        await delay(500);
+        rule10.style.opacity = "1";
+        rule10.style.top = "700px";
+        await delay(500);
+        rule11.style.opacity = "1";
+        rule11.style.top = "750px";
+        await delay(500);
+        rule12.style.opacity = "1";
+        rule12.style.top = "800px";
     }
 }
 async function minecraft(){
