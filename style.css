@@ -229,4 +229,161 @@ body{
     left: 350px;
     font-size: 4em;
 }
-
+#rulesTitle{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Orbitron";
+    font-size: 3em;
+    text-shadow: 0 0 10px white;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule1{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule2{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule3{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule4{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule5{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule6{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule7{
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule8{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule9{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule10{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule11{
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rule12{
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+    font-family: "Syncopate";
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+}
