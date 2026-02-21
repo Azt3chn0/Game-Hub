@@ -145,7 +145,7 @@ body{
     height: 150px;
     position: absolute;
     top: 350px;
-    left: 1000px;
+    left: 850px;
     background-image: url(geometryDashLogo.png);
     background-size: cover;
     background-position: center;
@@ -157,4 +157,74 @@ body{
     font-family: "lato", monospace;
     font-weight: bold;
     text-shadow: 0 0 10px blue;
+}
+#optionFour1{
+    opacity: 0;
+    transition: all 1s ease;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 550px;
+    left: 850px;
+    background-image: url(fortniteLogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:white;
+    -webkit-text-stroke: 2px lightblue;
+    font-size: 4em;
+    font-family: "lato", monospace;
+    font-weight: bold;
+    text-shadow: 0 0 10px blue;
+}
+#optionFive1{
+    opacity: 0;
+    transition: all 1s ease;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 350px;
+    left: 1200px;
+    background-image: url(MarvelRivals.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:white;
+    -webkit-text-stroke: 2px gray;
+    font-size: 4em;
+    font-family: "lato", monospace;
+    font-weight: bold;
+    text-shadow: 0 0 10px yellow;
+}
+#optionSix1{
+    opacity: 0;
+    transition: all 1s ease;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 550px;
+    left: 1200px;
+    background-image: url(questionMark.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:white;
+    -webkit-text-stroke: 2px gray;
+    font-size: 4em;
+    font-family: "lato", monospace;
+    font-weight: bold;
+    text-shadow: 0 0 10px yellow;
+}
+#sneaky{
+    transition: all 1s ease;
+    color: white;
+    font-family: "Orbitron";
+    opacity: 0;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    font-size: 4em;
 }
