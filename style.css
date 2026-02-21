@@ -1,6 +1,7 @@
 body{
     background-color: black;
     overflow: hidden;
+    user-select: none;
 }
 #welcomeTitle{
     position: absolute;
@@ -228,3 +229,4 @@ body{
     left: 350px;
     font-size: 4em;
 }
+
